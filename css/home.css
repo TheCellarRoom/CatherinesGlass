@@ -1,4 +1,4 @@
- body {
+body {
 		background:white;
 		width: 100%;
 		height: 100%;
@@ -65,23 +65,18 @@
 	
 	.macbook{background: white url(../img/macbook-bg.png) repeat-x center 125px; text-align: center;}	
 	
-	#pricing{text-align: center; padding: 25px; color: white; height:100%; position:relative;}
+	#pricing{text-align: center; padding: 25px; color: white; height:100%; position:relative; margin-bottom:35px;}
 	#pricing h2,h3{font-weight: 400;}
 	#pricing h2{color: #805eaf; margin-bottom: 35px;}
 	#pricing h3{color: white;}
 	#pricing h3 span{font-weight: 300;}
-	
-	#pricing .span3, #pricing .span8 {background: #805eaf; border-radius: 4px; padding-bottom: 25px; height:100%; position:relative;}
-	 #pricing .span8  {height:22%;}
+	#pricing .span3, #pricing .span6, #pricing .span8 {background: #805eaf; border-radius: 4px; height:100%; position:relative;}
+    #pricing .span8  {height:22%;}
 	#pricing ul{ margin-left: 0;}
-	
 	#pricing li{list-style: none; line-height: 36px;}
-	
 	#pricing .contact{padding-bottom: 0px;}
-	
-	#bob { height:310px; position:relative;}
+	#bob { height:350px; margin-bottom:15px; position:relative;}
 
-	
 	.purple{background: #805eaf;}
 	
 	.moveup img{
@@ -190,7 +185,7 @@
  	#pricing .span3,#actions .span3{margin-top: 20px; margin-bottom: 20px; height:100%; min-height:100%;}
  	
  	#header{height: 60px; padding-top: 10px;}
- 	
+ 	#bob {height:100%;}
  	
 	#header .btn{	
 	margin-top: 8px;
@@ -202,4 +197,5 @@
 @media (max-width: 767px){
 .banner{height: 300px;}
 body{padding: 0;}
+#bob {height:100%;}
 }
