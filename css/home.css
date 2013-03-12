@@ -30,7 +30,8 @@ body {
 		left:5px;
         	right:5px;
         	margin-left:auto;
-        	margin-right:auto; 
+        	margin-right:auto;
+        	background:#805eaf;
 	}
 	
 	#pricing li a{color: #805eaf; border-bottom: 1px dotted white; text-decoration: none; }
