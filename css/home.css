@@ -15,20 +15,6 @@ font-weight: 500;
 font-size: 18px;
 }
 
-	#pricing .btn{ 
-		left:5px;
-        	right:5px;
-        	margin-left:auto;
-        	margin-right:auto;
-        	background:#805eaf !important; border: 0;
-        	display:block;
-        	-webkit-border-radius: 3px;
-		-moz-border-radius: 3px;
-		border-radius: 3px;
-		font-weight: 500;
-		font-size: 18px;
-	}
-	
 	#pricing li a{color: #805eaf; border-bottom: 1px dotted white; text-decoration: none; }
 	
 	#header .btn{
