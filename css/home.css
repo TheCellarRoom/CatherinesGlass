@@ -28,21 +28,17 @@ body {
 	
 	#pricing .btn{ 
 		left:15px;
-        right:15px;
-        margin-left:auto;
-        margin-right:auto; 
+        	right:15px;
+        	margin-left:auto;
+        	margin-right:auto; 
 		bottom: 10px; 
 		position:absolute;
 	}
 	
-	#pricing li a{color: #000; border-bottom: 1px dotted white; text-decoration: none; }
-
-	#signup{margin-right: 15px;}
-	
-
+	#pricing li a{color: #805eaf; border-bottom: 1px dotted white; text-decoration: none; }
 	
 	#header .btn{
-    padding: 8px 15px;
+	padding: 8px 15px;
 	border-radius: 5px;
 	background: #805eaf !important;
 	-webkit-box-shadow: inset 0 2px rgba(173,151,203,.4);
@@ -65,17 +61,14 @@ body {
 	
 	.macbook{background: white url(../img/macbook-bg.png) repeat-x center 125px; text-align: center;}	
 	
-	#pricing{text-align: center; padding: 25px; color: white; height:100%; position:relative; margin-bottom:35px;}
+	#pricing{text-align: center; padding: 25px; color: #000;; height:100%; position:relative; margin-bottom:35px;}
 	#pricing h2,h3{font-weight: 400;}
 	#pricing h2{color: #805eaf; margin-bottom: 35px;}
-	#pricing h3{color: white;}
+	#pricing h3{color: #000;}
 	#pricing h3 span{font-weight: 300;}
-	#pricing .span3, #pricing .span6, #pricing .span8 {background: #805eaf; border-radius: 4px; height:100%; position:relative;}
-    #pricing .span8  {height:22%;}
 	#pricing ul{ margin-left: 0;}
 	#pricing li{list-style: none; line-height: 36px;}
 	#pricing .contact{padding-bottom: 0px;}
-	#bob { height:350px; margin-bottom:15px; position:relative;}
 
 	.purple{background: #805eaf;}
 	
@@ -154,16 +147,11 @@ body {
 	}	
 
 /***/
-
 	
 	#footer{padding: 25px;}
 	.input-xlarge{padding: 11px 10px !important;}
 	
-
-	
 	.right{float: right;}
-	
-	
 		
 	input[type="submit"]{	
 		font-size: 18px;
@@ -177,25 +165,14 @@ body {
  	.banner{height: 300px;}
  	#footer{padding: 10px;}
  	#signin{margin-right: 10px;}
- 	
  	.moveup{padding: 0 10px;}
- 	
  	.banner .btn{padding: 15px;}
- 	.macbook{background-position-y:25px;}
- 	#pricing .span3,#actions .span3{margin-top: 20px; margin-bottom: 20px; height:100%; min-height:100%;}
- 	
- 	#header{height: 60px; padding-top: 10px;}
- 	#bob {height:100%;}
- 	
-	#header .btn{	
-	margin-top: 8px;
-	
-	} 	
+        #header{height: 60px; padding-top: 10px;}
+	#header .btn{ margin-top: 8px;} 	
 }
 
 
 @media (max-width: 767px){
 .banner{height: 300px;}
 body{padding: 0;}
-#bob {height:100%;}
 }
