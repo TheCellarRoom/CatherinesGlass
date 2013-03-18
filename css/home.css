@@ -52,7 +52,7 @@ font-size: 18px;
 
 	.purple{background: #805eaf;}
 	
-	.moveup img{
+	.moveup img, .moveup i{
 		-webkit-transform: translateY(445px);
 		-webkit-animation:show 1s 0s ,play 20s 2s infinite;
 		-webkit-animation-timing-function: ease-in-out;
