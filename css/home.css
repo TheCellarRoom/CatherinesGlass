@@ -15,7 +15,7 @@ font-weight: 500;
 font-size: 18px;
 }
 
-	#pricing li a{color: #805eaf; border-bottom: 1px dotted white; text-decoration: none; }
+	#details li a{color: #805eaf; border-bottom: 1px dotted white; text-decoration: none; }
 	
 	#header .btn{
 	padding: 8px 15px;
@@ -41,18 +41,18 @@ font-size: 18px;
 	
 	.macbook{background: white url(../img/macbook-bg.png) repeat-x center 125px; text-align: center;}	
 	
-	#pricing{text-align: center; padding: 25px; color: #000;; height:100%; position:relative; margin-bottom:35px;}
-	#pricing h2,h3{font-weight: 400;}
-	#pricing h2{color: #805eaf; margin-bottom: 35px;}
-	#pricing h3{color: #000;}
-	#pricing h3 span{font-weight: 300;}
-	#pricing ul{ margin-left: 0;}
-	#pricing li{list-style: none; line-height: 36px;}
-	#pricing .contact{padding-bottom: 0px;}
+	#details{text-align: center; padding: 25px; color: #000;; height:100%; position:relative; margin-bottom:35px;}
+	#details h2,h3{font-weight: 400;}
+	#details h2{color: #805eaf; margin-bottom: 35px;}
+	#details h3{color: #000;}
+	#details h3 span{font-weight: 300;}
+	#details ul{ margin-left: 0;}
+	#details li{list-style: none; line-height: 36px;}
+	#details.contact{padding-bottom: 0px;}
 
 	.purple{background: #805eaf;}
 	
-	.moveup img, .moveup i{
+	.moveup img, .moveup p{
 		-webkit-transform: translateY(445px);
 		-webkit-animation:show 1s 0s ,play 20s 2s infinite;
 		-webkit-animation-timing-function: ease-in-out;
